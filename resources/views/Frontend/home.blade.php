@@ -203,7 +203,7 @@
                                 <i class="fa-solid fa-shield-halved fs-60 mb-3 text-success"></i>
                                 <div class="relative mt-4">
                                     <h4>Home Security</h4>
-                                    <p>Advanced systems to protect your family and property</p>
+                                    <p>Advanced systems to protect family and property</p>
 
                                 </div>
                             </div>

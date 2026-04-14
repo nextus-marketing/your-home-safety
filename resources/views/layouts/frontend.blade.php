@@ -141,7 +141,7 @@
 
                         <ul class="list-inline mb-0">
                             <li class="list-inline-item">
-                                <a href="/terms-and-conditions">Terms & Conditions</a>
+                                <a href="/terms-and-condition">Terms & Conditions</a>
                             </li>
                             <li class="list-inline-item ms-3">
                                 <a href="/privacy-policy">Privacy Policy</a>
