@@ -1,121 +1,177 @@
 @extends('layouts.frontend')
 @section('title')
-    Terms & Condtions | Your Home Seafty
+    Terms And Condtions | Your Home Seafty
 @endsection
 @section('content')
-    <section id="subheader" class="bg-color-op-1 text-center">
-        <div class="container relative z-2">
+    <div class="page-header parallaxie">
+        <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-12">
-                    <h1 class="wow fadeInUp">Terms & Condtions</h1>
-                    <div class="border-bottom my-3"></div>
-                    <ul class="crumb wow fadeInDown">
-                        <li><a href="/">Home</a></li>
-                        <li class="active">Terms & Condtions</li>
-                    </ul>
+                    <!-- Page Header Box Start -->
+                    <div class="page-header-box">
+                        <h1 class="wow fadeInUp" data-cursor="-opaque">Terms And Condtions</h1>
+                        <nav class="wow fadeInUp" data-wow-delay="0.2s">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="/">home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Terms And Condtions</li>
+                            </ol>
+                        </nav>
+                    </div>
+                    <!-- Page Header Box End -->
                 </div>
             </div>
         </div>
-    </section>
-
-    <section>
+    </div>
+    <div class="page-service-single">
         <div class="container">
-            <div class="row gx-5">
+            <div class="row">
+
+
                 <div class="col-lg-12">
-                    <div class="blog-read">
+                    <div class="service-single-content">
 
-                        <div class="post-text">
+                        <div class="service-entry">
 
-                            <p>
-                                Welcome to Your Home Safety. These Terms and Conditions (“Terms”) govern your use of our
-                                website, products, and services.
-                                By accessing or using our website or services, you agree to be bound by these Terms.
-                                If you do not agree with any part of these Terms, please do not use our services.
-                            </p>
+                            <div class="service-why-choose-box">
 
-                            <ol class="ol-style-1">
 
-                                <li>
-                                    <h5>Use of Our Services</h5>
+
+                                <p class="wow fadeInUp" data-wow-delay="0.4s">
+                                    Welcome to Your Home Safety. These Terms and Conditions (“Terms”) govern your use of our
+                                    website, products, and services. By accessing or using our website or services, you
+                                    agree to be bound by these Terms. If you do not agree with any part of these Terms,
+                                    please do not use our services.
+                                </p>
+
+                                <!-- Use of Services -->
+                                <h5 class="wow fadeInUp" data-wow-delay="0.6s">
+                                    Use of Our Services
+                                </h5>
+                                </br>
+                                <p class="wow fadeInUp" data-wow-delay="0.8s">
                                     You agree to use our services only for lawful purposes and in a manner that does not
-                                    infringe on the rights of others.
-                                    You must be at least 18 years old or have the consent of a legal guardian.
-                                </li>
+                                    infringe on the rights of others. You must be at least 18 years old or have the consent
+                                    of a legal guardian.
+                                </p>
 
-                                <li>
-                                    <h5>Account Registration</h5>
+                                <!-- Account -->
+                                <h5 class="wow fadeInUp" data-wow-delay="1s">
+                                    Account Registration
+                                </h5>
+                                </br>
+                                <p class="wow fadeInUp" data-wow-delay="1.2s">
                                     You may be required to create an account. You agree to provide accurate information and
-                                    keep your login details secure.
-                                    You are responsible for all activity under your account.
-                                </li>
+                                    keep your login details secure. You are responsible for all activity under your account.
+                                </p>
 
-                                <li>
-                                    <h5>Purchases and Payments</h5>
+                                <!-- Payments -->
+                                <h5 class="wow fadeInUp" data-wow-delay="1.4s">
+                                    Purchases and Payments
+                                </h5>
+                                </br>
+                                <p class="wow fadeInUp" data-wow-delay="1.6s">
                                     By placing an order, you agree to pay all applicable charges. Payments are handled by
-                                    third-party providers,
-                                    and we are not responsible for issues arising from them.
-                                </li>
+                                    third-party providers, and we are not responsible for issues arising from them.
+                                </p>
 
-                                <li>
-                                    <h5>Installation and Monitoring Services</h5>
+                                <!-- Installation -->
+                                <h5 class="wow fadeInUp" data-wow-delay="1.8s">
+                                    Installation and Monitoring Services
+                                </h5>
+                                </br>
+                                <p class="wow fadeInUp" data-wow-delay="2s">
                                     Additional terms may apply to installation or monitoring services. You must ensure
                                     access to your property for installation.
-                                </li>
+                                </p>
 
-                                <li>
-                                    <h5>Intellectual Property</h5>
-                                    All website content including logos, text, and designs are owned by Your Home Safety
-                                    and protected by law.
-                                    You may not use or reproduce content without permission.
-                                </li>
+                                <!-- IP -->
+                                <h5 class="wow fadeInUp" data-wow-delay="2.2s">
+                                    Intellectual Property
+                                </h5>
+                                </br>
+                                <p class="wow fadeInUp" data-wow-delay="2.4s">
+                                    All website content including logos, text, and designs are owned by Your Home Safety and
+                                    protected by law. You may not use or reproduce content without permission.
+                                </p>
 
-                                <li>
-                                    <h5>User Conduct</h5>
-                                    You agree not to:
-                                    <br>A) Use the site for unlawful purposes
-                                    <br>B) Interfere with website security
-                                    <br>C) Attempt unauthorized access
-                                    <br>D) Upload harmful code or malware
-                                </li>
-
-                                <li>
-                                    <h5>Disclaimers</h5>
+                                <!-- Conduct -->
+                                <h5 class="wow fadeInUp" data-wow-delay="2.6s">
+                                    User Conduct
+                                </h5>
+                                </br>
+                                <ul class="wow fadeInUp" data-wow-delay="2.8s">
+                                    <li>A) Use the site for unlawful purposes</li>
+                                    <li>B) Interfere with website security</li>
+                                    <li>C) Attempt unauthorized access</li>
+                                    <li>D) Upload harmful code or malware</li>
+                                </ul>
+                                </br>
+                                <!-- Disclaimer -->
+                                <h5 class="wow fadeInUp" data-wow-delay="3s">
+                                    Disclaimers
+                                </h5>
+                                </br>
+                                <p class="wow fadeInUp" data-wow-delay="3.2s">
                                     Services are provided “as is” without warranties. We do not guarantee uninterrupted or
                                     error-free service.
-                                </li>
+                                </p>
 
-                                <li>
-                                    <h5>Limitation of Liability</h5>
+                                <!-- Liability -->
+                                <h5 class="wow fadeInUp" data-wow-delay="3.4s">
+                                    Limitation of Liability
+                                </h5>
+                                </br>
+                                <p class="wow fadeInUp" data-wow-delay="3.6s">
                                     We are not liable for indirect or consequential damages resulting from the use of our
                                     services.
-                                </li>
+                                </p>
 
-                                <li>
-                                    <h5>Privacy</h5>
+                                <!-- Privacy -->
+                                <h5 class="wow fadeInUp" data-wow-delay="3.8s">
+                                    Privacy
+                                </h5>
+                                </br>
+                                <p class="wow fadeInUp" data-wow-delay="4s">
                                     Your data is handled as per our Privacy Policy.
-                                </li>
+                                </p>
 
-                                <li>
-                                    <h5>Termination</h5>
+                                <!-- Termination -->
+                                <h5 class="wow fadeInUp" data-wow-delay="4.2s">
+                                    Termination
+                                </h5>
+                                </br>
+                                <p class="wow fadeInUp" data-wow-delay="4.4s">
                                     We may suspend or terminate access to our services if terms are violated.
-                                </li>
+                                </p>
 
-                                <li>
-                                    <h5>Governing Law</h5>
+                                <!-- Law -->
+                                <h5 class="wow fadeInUp" data-wow-delay="4.6s">
+                                    Governing Law
+                                </h5>
+                                </br>
+                                <p class="wow fadeInUp" data-wow-delay="4.8s">
                                     These Terms are governed by the laws of Maryland, USA.
-                                </li>
+                                </p>
 
-                                <li>
-                                    <h5>Changes to Terms</h5>
+                                <!-- Changes -->
+                                <h5 class="wow fadeInUp" data-wow-delay="5s">
+                                    Changes to Terms
+                                </h5>
+                                </br>
+                                <p class="wow fadeInUp" data-wow-delay="5.2s">
                                     We may update these Terms at any time. Continued use means acceptance of updates.
-                                </li>
+                                </p>
 
-                                <li>
-                                    <h5>Contact Us</h5>
-                                    Phone: <a href="tel:+18558743165">+1 (855) 874-3165</a>
-                                </li>
+                                <!-- Contact -->
+                                <h5 class="wow fadeInUp" data-wow-delay="5.4s">
+                                    Contact Us
+                                </h5>
+                                </br>
+                                <p class="wow fadeInUp" data-wow-delay="5.6s">
+                                    Phone: <a href="tel:+18664206110">+1 (866) 420-6110</a>
+                                </p>
 
-                            </ol>
+                            </div>
 
                         </div>
 
@@ -123,5 +179,5 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 @endsection

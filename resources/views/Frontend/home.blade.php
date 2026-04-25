@@ -3,616 +3,556 @@
     Your Home Safety | CCTV Installation & Home Security Solutions
 @endsection
 @section('content')
-    <div class="no-bottom no-top" id="content">
-
-        <div id="top"></div>
-
-        <section id="section-intro" class="text-light no-top no-bottom relative overflow-hidden">
-
-            <div class="relative">
-                <div class="abs abs-centered w-100 z-2">
-                    <div class="container">
-                        <div class="row g-4 align-items-center justify-content-between">
-
-                            <div class="col-lg-6">
-                                <div class="spacer-single sm-hide"></div>
-                                <div class="subtitle">Smart Home Protection</div>
-                                <h1>Secure Your Home & Business with Reliable Surveillance Solutions</h1>
-                                <a class="btn-main btn-line fx-slide" href="tel:+1234567890">
-                                    <span><i class="fa fa-phone"></i> +1 (234) 555-2671</span>
-                                </a>
-                            </div>
-
+    <!-- Hero Section Start -->
+    <div class="hero parallaxie">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7">
+                    <!-- Hero Content Start -->
+                    <div class="hero-content">
+                        <!-- Section Title Start -->
+                        <div class="section-title dark-section">
+                            <h3 class="wow fadeInUp">welcome Your Home Safety</h3>
+                            <h1 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">Secure Your Home & Business
+                                with Reliable Surveillance Solutions</h1>
                         </div>
+                        <!-- Section Title End -->
 
-                    </div>
-                </div>
-
-                <div class="mh-800">
-                    <div class="swiper wow scaleIn">
-                        <!-- Additional required wrapper -->
-                        <div class="swiper-wrapper">
-                            <!-- Slides -->
-                            <div class="swiper-slide">
-                                <div class="swiper-inner" data-bgimage="url(/frontend/my-img/1.jpg) center">
-                                    <div class="sw-overlay op-5"></div>
-                                    <div class="gradient-edge-left z-2"></div>
-
-                                </div>
+                        <!-- Hero Content Body Start -->
+                        <div class="hero-content-body wow fadeInUp" data-wow-delay="0.6s">
+                            <!-- Hero Button Start -->
+                            <div class="hero-btn">
+                                <a href="tel:+18664206110" class="btn-default btn-highlighted"> +1 (866) 420-6110</a>
                             </div>
-                            <!-- Slides -->
-
-
+                            <!-- Hero Button End -->
                         </div>
-
+                        <!-- Hero Content Body End -->
                     </div>
+                    <!-- Hero Content End -->
                 </div>
             </div>
+        </div>
+    </div>
+    <!-- Hero Section End -->
 
-        </section>
+    <!-- About Us Section Start -->
+    <div class="about-us">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <!-- About Us Image Start -->
+                    <div class="about-us-image">
+                        <!-- About Image Box Start -->
+                        <div class="about-image-box about-img-1">
+                            <figure class="image-anime reveal">
+                                <img src="/frontend/images/about-image-1.jpg" alt="">
+                            </figure>
+                        </div>
+                        <!-- About Image Box End -->
 
-        <section class="bg-dark text-light pt-50 pb-30">
-            <div class="container">
-                <div class="row g-4 text-center text-md-start">
+                        <!-- About Image Box Start -->
+                        <div class="about-image-box">
+                            <div class="about-img-2">
+                                <figure class="image-anime reveal">
+                                    <img src="/frontend/images/about-image-2.jpg" alt="">
+                                </figure>
+                            </div>
 
-                    <!-- Call Us -->
-                    <div class="col-lg-4 col-md-6">
-                        <div class="d-flex flex-column flex-md-row align-items-center align-items-md-start">
-                            <i class="fs-60 id-color icon_phone mb-3 mb-md-0"></i>
-                            <div class="ms-md-3">
-                                <h4 class="mb-1">Need Security Solutions?</h4>
-                                <p class="mb-0">
-                                    Call:
-                                    <a href="tel:+14155552671" style="color:#fff; text-decoration:none;">
-                                        +1 (415) 555-2671
-                                    </a>
-                                </p>
+                            <div class="about-img-3">
+                                <figure class="image-anime reveal">
+                                    <img src="/frontend/images/about-image-3.jpg" alt="">
+                                </figure>
                             </div>
                         </div>
-                    </div>
+                        <!-- About Image Box Start -->
 
-                    <!-- Free Consultation -->
-                    <div class="col-lg-4 col-md-6">
-                        <div class="d-flex flex-column flex-md-row align-items-center align-items-md-start">
-                            <i class="fs-60 id-color icon_chat mb-3 mb-md-0"></i>
-                            <div class="ms-md-3">
-                                <h4 class="mb-1">Free Consultation</h4>
-                                <p class="mb-0">Get Expert Advice for CCTV & Home Security</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Fast Installation -->
-                    <div class="col-lg-4 col-md-6">
-                        <div class="d-flex flex-column flex-md-row align-items-center align-items-md-start">
-                            <i class="fs-60 id-color icon_check mb-3 mb-md-0"></i>
-                            <div class="ms-md-3">
-                                <h4 class="mb-1">Fast Installation</h4>
-                                <p class="mb-0">Quick Setup with Professional Support</p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <section id="about">
-            <div class="container">
-                <div class="row g-4 gx-5 align-items-center">
-                    <div class="col-lg-6">
-                        <div class="row g-4">
-                            <div class="col-6">
-                                <div class="row g-4">
-                                    <div class="col-lg-12">
-                                        <div class="rounded-1 overflow-hidden wow zoomIn">
-                                            <img src="/frontend/my-img/cam-1.jpg" class="w-100 wow scaleIn" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="row g-4">
-                                    <div class="spacer-single sm-hide"></div>
-                                    <div class="col-lg-12">
-                                        <div class="rounded-1 overflow-hidden wow zoomIn" data-wow-delay=".3s">
-                                            <img src="/frontend/my-img/cam-2.jpg" class="w-100 wow scaleIn" alt=""
-                                                data-wow-delay=".3s">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6">
-                        <div class="me-lg-3">
-                            <div class="subtitle s2 mb-3 wow fadeInUp" data-wow-delay=".0s">
-                                About Us
-                            </div>
-
-                            <h2 class="wow fadeInUp" data-wow-delay=".2s">
-                                Smart CCTV & Home Security Solutions You Can Trust
-                            </h2>
-
-                            <p class="wow fadeInUp" data-wow-delay=".4s">
-                                At Your Home Safety, we provide reliable CCTV installation and advanced home security
-                                systems
-                                to protect family, property, & business. Our expert team ensures quick setup,
-                                high-quality
-                                surveillance, and complete peace of mind with modern technology.
-                            </p>
-
-                            <ul class="ul-check text-dark cols-2 fw-600 mb-4 wow fadeInUp" data-wow-delay=".6s">
-                                <li>Professional CCTV Installation</li>
-                                <li>24/7 Surveillance Solutions</li>
-                                <li>Affordable & Reliable Service</li>
-                                <li>Expert Support & Maintenance</li>
-                            </ul>
-
-                            <!-- Call Button -->
-                            <a class="btn-main fx-slide wow fadeInUp" data-wow-delay=".8s" href="tel:+14155552671">
-                                <span>
-                                    <i class="fa-solid fa-phone" style="margin-right:8px;"></i>
-                                    Call Now: +1 (415) 555-2671
-                                </span>
+                        <!-- Get Free Security Circle Start -->
+                        <div class="get-free-security-circle">
+                            <a href="#0">
+                                <img src="/frontend/images/get-free-security-circle.svg" alt="">
                             </a>
                         </div>
+                        <!-- Get Free Security Circle End -->
                     </div>
+                    <!-- About Us Image End -->
+                </div>
+
+                <div class="col-lg-6">
+                    <!-- About Us Content Start -->
+                    <div class="about-us-content">
+                        <!-- Section Title Start -->
+                        <div class="section-title">
+                            <h3 class="wow fadeInUp">about us</h3>
+                            <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">Smart <span>CCTV & Home
+                                    Security
+                                    Solutions</span> You Can
+                                Trust</h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.4s"> At Your Home Safety, we provide reliable CCTV
+                                installation and advanced home security systems to protect family, property, & business. Our
+                                expert team ensures quick setup, high-quality surveillance, and complete peace of mind with
+                                modern technology.</p>
+                        </div>
+                        <!-- Section Title End -->
+
+                        <!-- About Us Footer Start -->
+                        <div class="about-us-footer wow fadeInUp" data-wow-delay="0.8s">
+                            <!-- About Footer List Start -->
+                            <div class="about-footer-list">
+                                <ul>
+                                    <li>Professional CCTV Installation</li>
+                                    <li>24/7 Surveillance Solutions</li>
+                                    <li>Expert Support & Maintenance</li>
+                                </ul>
+                            </div>
+                            <!-- About Footer List End -->
+
+                            <!-- About Footer Content Start -->
+                            <div class="about-footer-content">
+                                <!-- About Content Button Start -->
+                                <div class="about-contact-btn">
+                                    <div class="icon-box">
+                                        <img src="/frontend/images/icon-phone.svg" alt="">
+                                    </div>
+
+                                    <div class="about-footer-btn-content">
+                                        <h3><a href="tel:+18664206110">+1 (866) 420-6110</a></h3>
+                                    </div>
+                                </div>
+                                <!-- About Content Button End -->
+                            </div>
+                            <!-- About Footer Content End -->
+                        </div>
+                        <!-- About Us Footer End -->
+                    </div>
+                    <!-- About Us Content End -->
                 </div>
             </div>
-        </section>
-
-        <section class="bg-color-op-1">
-            <div class="container">
-                <div class="row g-4 justify-content-center">
-                    <div class="col-lg-8 text-center">
-                        <div class="subtitle wow fadeInUp mb-3">Our Services</div>
-                        <h2 class="wow fadeInUp" data-wow-delay=".2s">
-                            Complete Security Solutions for Your Home & Business
-                        </h2>
-                        <p class="col-lg-8 offset-lg-2 mb-0 wow fadeInUp">
-                            From CCTV installation to advanced surveillance systems, we provide reliable and affordable
-                            security solutions to keep property safe & secure.
-                        </p>
-                        <div class="spacer-single"></div>
-                        <div class="spacer-half"></div>
-                    </div>
-                </div>
-
-                <div class="row g-4">
-
-                    <!-- CCTV -->
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="hover">
-                            <div class="bg-white h-100 p-40 rounded-1 text-center">
-                                <i class="fa-solid fa-video fs-60 mb-3 text-primary"></i>
-                                <div class="relative mt-4">
-                                    <h4>CCTV Installation</h4>
-                                    <p>Secure camera setup for all spaces</p>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Security -->
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="hover">
-                            <div class="bg-white h-100 p-40 rounded-1 text-center">
-                                <i class="fa-solid fa-shield-halved fs-60 mb-3 text-success"></i>
-                                <div class="relative mt-4">
-                                    <h4>Home Security</h4>
-                                    <p>Advanced systems to protect family and property</p>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Door Phone -->
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="hover">
-                            <div class="bg-white h-100 p-40 rounded-1 text-center">
-                                <i class="fa-solid fa-door-closed fs-60 mb-3 text-warning"></i>
-                                <div class="relative mt-4">
-                                    <h4>Video Door Phone</h4>
-                                    <p>See and talk to visitors with smart door solutions</p>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Alarm -->
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="hover">
-                            <div class="bg-white h-100 p-40 rounded-1 text-center">
-                                <i class="fa-solid fa-bell fs-60 mb-3 text-danger"></i>
-                                <div class="relative mt-4">
-                                    <h4>Alarm Systems</h4>
-                                    <p>Instant alerts and alarms to prevent intrusions</p>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- CTA -->
-                    <div class="col-lg-12 mt-5 text-center">
-                        <a class="btn-main fx-slide" href="tel:+14155552671">
-                            <span>
-                                <i style="margin-right:8px;"></i>
-                                Call Our Security Expert
-                            </span>
-                        </a>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <section class="bg-dark text-light pt-60 pb-60">
-            <div class="container">
-
-                <div class="row g-4">
-
-                    <div class="col-md-3 col-sm-6 text-center">
-                        <div class="de_count wow fadeInRight" data-wow-delay=".0s">
-                            <h3 class="fs-40 mb-0">
-                                <span class="timer" data-to="5000" data-speed="3000">0</span>+
-                            </h3>
-                            Cameras Installed
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 col-sm-6 text-center">
-                        <div class="de_count wow fadeInRight" data-wow-delay=".2s">
-                            <h3 class="fs-40 mb-0">
-                                <span class="timer" data-to="2000" data-speed="3500">0</span>+
-                            </h3>
-                            Happy Clients
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 col-sm-6 text-center">
-                        <div class="de_count wow fadeInRight" data-wow-delay=".4s">
-                            <h3 class="fs-40 mb-0">
-                                <span class="timer" data-to="1500" data-speed="3000">0</span>+
-                            </h3>
-                            Homes Secured
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 col-sm-6 text-center">
-                        <div class="de_count wow fadeInRight" data-wow-delay=".6s">
-                            <h3 class="fs-40 mb-0">
-                                <span class="timer" data-to="8" data-speed="3000">0</span>+
-                            </h3>
-                            Years of Experience
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <div class="container">
-                <div class="row gy-4 gx-5 align-items-center">
-
-                    <div class="col-lg-6">
-                        <div class="subtitle id-color wow fadeInUp" data-wow-delay=".0s">
-                            Why Choose Your Home Safety
-                        </div>
-
-                        <h2 class="wow fadeInUp" data-wow-delay=".2s">
-                            Reliable Security Solutions You Can Trust
-                        </h2>
-
-                        <p class="wow fadeInUp" data-wow-delay=".4s">
-                            Choosing the right security provider is essential. We deliver advanced CCTV and home security
-                            systems with expert installation, ensuring your home and business stay protected at all times.
-                        </p>
-
-                        <div class="border-bottom mb-4"></div>
-
-                        <div class="row g-4">
-
-                            <div class="col-sm-6">
-                                <div class="h-100">
-                                    <div class="relative wow fadeInUp">
-                                        <h5>Expert Installation</h5>
-                                        <p class="mb-0">Professional setup for maximum security and performance.</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-sm-6">
-                                <div class="h-100">
-                                    <div class="relative wow fadeInUp">
-                                        <h5>Advanced Technology</h5>
-                                        <p class="mb-0">Latest CCTV systems with high-quality video monitoring.</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-sm-6">
-                                <div class="h-100">
-                                    <div class="relative wow fadeInUp">
-                                        <h5>Affordable Pricing</h5>
-                                        <p class="mb-0">Cost-effective security solutions for every budget.</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-sm-6">
-                                <div class="h-100">
-                                    <div class="relative wow fadeInUp">
-                                        <h5>24/7 Support</h5>
-                                        <p class="mb-0">Always available for assistance and maintenance support.</p>
-                                    </div>
-                                </div>
-                            </div>
-
-
-
-                        </div>
-                        <a class="btn-main fx-slide wow fadeInUp mt-4" data-wow-delay=".8s" href="tel:+14155552671">
-                            <span>
-                                <i class="fa-solid fa-phone" style="margin-right:8px;"></i>
-                                Call Now: +1 (415) 555-2671
-                            </span>
-                        </a>
-                    </div>
-
-                    <!-- Images Side (no change needed, just better alt text) -->
-                    <div class="col-lg-6">
-                        <div class="row g-4 align-items-center">
-
-                            <div class="col-6 text-end">
-                                <div class="w-80 rounded-1 overflow-hidden mb-25 wow zoomIn d-inline-block">
-                                    <img src="/frontend/my-img/cam-3.avif" class="w-100 wow scaleIn"
-                                        alt="CCTV Installation">
-                                </div>
-
-                                <div class="w-100 rounded-1 overflow-hidden mb-25 wow zoomIn d-inline-block">
-                                    <img src="/frontend/my-img/cam-5.avif" class="w-100 wow scaleIn"
-                                        alt="Security Monitoring">
-                                </div>
-                            </div>
-
-                            <div class="col-6">
-                                <div class="w-100 rounded-1 overflow-hidden mb-25 wow zoomIn d-inline-block">
-                                    <img src="/frontend/my-img/cam-4.jpg" class="w-100 wow scaleIn"
-                                        alt="Home Security System">
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-
-        <section>
-            <div class="container">
-                <div class="row g-4">
-
-                    <div class="col-lg-5">
-                        <div class="subtitle id-color wow fadeInUp" data-wow-delay=".0s">
-                            Everything You Need to Know
-                        </div>
-
-                        <h2 class="wow fadeInUp" data-wow-delay=".2s">
-                            Frequently Asked Questions
-                        </h2>
-                    </div>
-
-                    <div class="col-lg-7">
-                        <div class="accordion s2 wow fadeInUp">
-                            <div class="accordion-section">
-
-                                <!-- Q1 -->
-                                <div class="accordion-section-title" data-tab="#accordion-a1">
-                                    How long does CCTV installation take?
-                                </div>
-                                <div class="accordion-section-content" id="accordion-a1">
-                                    Most CCTV installations are completed within a few hours depending on the size of your
-                                    property.
-                                </div>
-
-                                <!-- Q2 -->
-                                <div class="accordion-section-title" data-tab="#accordion-a2">
-                                    Do you provide installation for homes and offices?
-                                </div>
-                                <div class="accordion-section-content" id="accordion-a2">
-                                    Yes, we offer complete security solutions for homes, offices, shops, and commercial
-                                    spaces.
-                                </div>
-
-                                <!-- Q3 -->
-                                <div class="accordion-section-title" data-tab="#accordion-a3">
-                                    Can I view my CCTV cameras on my mobile?
-                                </div>
-                                <div class="accordion-section-content" id="accordion-a3">
-                                    Yes, you can monitor your cameras live from your smartphone anytime, anywhere.
-                                </div>
-
-                                <!-- Q4 -->
-                                <div class="accordion-section-title" data-tab="#accordion-a4">
-                                    Do you offer maintenance and support?
-                                </div>
-                                <div class="accordion-section-content" id="accordion-a4">
-                                    Yes, we provide ongoing support and maintenance to ensure your system runs smoothly.
-                                </div>
-
-                                <!-- Q5 -->
-                                <div class="accordion-section-title" data-tab="#accordion-a5">
-                                    How can I get a quote for installation?
-                                </div>
-                                <div class="accordion-section-content" id="accordion-a5">
-                                    Simply call us, and our team will guide you and provide a free consultation and
-                                    estimate.
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <section class="bg-color-op-1">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 offset-lg-3 text-center">
-                        <div class="subtitle wow fadeInUp mb-3">Testimonials</div>
-                        <h2 class="wow fadeInUp" data-wow-delay=".2s">What Our Customers Say</h2>
-                        <p class="wow fadeInUp">
-                            Trusted by hundreds of customers for reliable CCTV installation and home security solutions.
-                            See what our clients say about our service.
-                        </p>
-                        <div class="spacer-single"></div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="owl-carousel owl-theme wow fadeInUp four-cols-center-dots text-center">
-
-                        <!-- 1 -->
-                        <div class="item">
-                            <div class="gradient-white-top p-40 py-4 rounded-1">
-                                <blockquote>
-                                    <i class="fs-32 icofont-quote-left absolute start-0 mt-2 p-0 id-color"></i>
-                                    <div class="de_testi_by">
-                                        <img class="circle" alt="" src="/frontend/images/testimonial/1.webp">
-                                        <div>Michael S.<span>Home Owner</span></div>
-                                    </div>
-                                    <p class="mt-4 mb-0 text-dark op-6">
-                                        "Great service! My CCTV installation was done quickly and professionally.
-                                        Now I feel much safer at home."
-                                    </p>
-                                </blockquote>
-                            </div>
-                        </div>
-
-                        <!-- 2 -->
-                        <div class="item">
-                            <div class="gradient-white-top p-40 py-4 rounded-1">
-                                <blockquote>
-                                    <i class="fs-32 icofont-quote-left absolute start-0 mt-2 p-0 id-color"></i>
-                                    <div class="de_testi_by">
-                                        <img class="circle" alt="" src="/frontend/images/testimonial/2.webp">
-                                        <div>Robert L.<span>Shop Owner</span></div>
-                                    </div>
-                                    <p class="mt-4 mb-0 text-dark op-6">
-                                        "Installed cameras in my shop. The quality is excellent and the support team is very
-                                        helpful."
-                                    </p>
-                                </blockquote>
-                            </div>
-                        </div>
-
-                        <!-- 3 -->
-                        <div class="item">
-                            <div class="gradient-white-top p-40 py-4 rounded-1">
-                                <blockquote>
-                                    <i class="fs-32 icofont-quote-left absolute start-0 mt-2 p-0 id-color"></i>
-                                    <div class="de_testi_by">
-                                        <img class="circle" alt="" src="/frontend/images/testimonial/3.webp">
-                                        <div>Nelson K.<span>Customer</span></div>
-                                    </div>
-                                    <p class="mt-4 mb-0 text-dark op-6">
-                                        "Very affordable and reliable service. I can now monitor my home from my mobile
-                                        anytime."
-                                    </p>
-                                </blockquote>
-                            </div>
-                        </div>
-
-                        <!-- 4 -->
-                        <div class="item">
-                            <div class="gradient-white-top p-40 py-4 rounded-1">
-                                <blockquote>
-                                    <i class="fs-32 icofont-quote-left absolute start-0 mt-2 p-0 id-color"></i>
-                                    <div class="de_testi_by">
-                                        <img class="circle" alt="" src="/frontend/images/testimonial/4.webp">
-                                        <div>Alex P.<span>Office Owner</span></div>
-                                    </div>
-                                    <p class="mt-4 mb-0 text-dark op-6">
-                                        "Professional team and fast installation. Highly recommended for office security."
-                                    </p>
-                                </blockquote>
-                            </div>
-                        </div>
-
-                        <!-- 5 -->
-                        <div class="item">
-                            <div class="gradient-white-top p-40 py-4 rounded-1">
-                                <blockquote>
-                                    <i class="fs-32 icofont-quote-left absolute start-0 mt-2 p-0 id-color"></i>
-                                    <div class="de_testi_by">
-                                        <img class="circle" alt="" src="/frontend/images/testimonial/5.webp">
-                                        <div>Carlos R.<span>Customer</span></div>
-                                    </div>
-                                    <p class="mt-4 mb-0 text-dark op-6">
-                                        "Quick response and excellent service. The system works perfectly."
-                                    </p>
-                                </blockquote>
-                            </div>
-                        </div>
-
-                        <!-- 6 -->
-                        <div class="item">
-                            <div class="gradient-white-top p-40 py-4 rounded-1">
-                                <blockquote>
-                                    <i class="fs-32 icofont-quote-left absolute start-0 mt-2 p-0 id-color"></i>
-                                    <div class="de_testi_by">
-                                        <img class="circle" alt="" src="/frontend/images/testimonial/6.webp">
-                                        <div>Harris M.<span>Customer</span></div>
-                                    </div>
-                                    <p class="mt-4 mb-0 text-dark op-6">
-                                        "Same day installation and great support. Very satisfied with the service."
-                                    </p>
-                                </blockquote>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="bg-color text-light pt-40 pb-40" id="contact">
-            <div class="container">
-                <div class="row g-4 align-items-center">
-
-                    <div class="col-md-8">
-                        <h3 class="mb-0 fs-32">
-                            Ready to Secure Your Home or Business?
-                        </h3>
-                        <p class="mb-0">
-                            Call now for quick CCTV installation and expert security solutions.
-                        </p>
-                    </div>
-
-                    <div class="col-lg-4 text-lg-end">
-                        <a class="btn-main btn-line fx-slide" href="tel:+14155552671">
-                            <span>
-                                <i class="fa-solid fa-phone" style="margin-right:8px;"></i>
-                                Call Now To Speak With Expert
-                            </span>
-                        </a>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
+        </div>
     </div>
+    <!-- About Us Section End -->
+
+    <!-- Our Services Section Start -->
+    <div class="our-services">
+        <div class="container">
+            <div class="row section-row">
+                <div class="col-lg-12">
+                    <div class="section-title text-center">
+                        <h3 class="wow fadeInUp">Our Services</h3>
+                        <h2 class="wow fadeInUp" data-wow-delay="0.2s">
+                            Complete Security Solutions for Your <span>Home & Business</span>
+                        </h2>
+                        <p>
+                            From CCTV installation to advanced surveillance systems, we provide reliable and affordable
+                            security solutions to keep your property safe & secure.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-4">
+
+                <!-- CCTV -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="service-card">
+                        <i class="fa-solid fa-camera"></i>
+                        <h4>CCTV Installation</h4>
+                        <p>Secure camera setup for homes, offices and commercial spaces.</p>
+                    </div>
+                </div>
+
+                <!-- Home Security -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="service-card">
+                        <i class="fa-solid fa-shield-halved"></i>
+                        <h4>Home Security</h4>
+                        <p>Advanced systems to protect your family and property 24/7.</p>
+                    </div>
+                </div>
+
+                <!-- Video Door -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="service-card">
+                        <i class="fa-solid fa-video"></i>
+                        <h4>Video Door Phone</h4>
+                        <p>See and talk to visitors with smart door solutions.</p>
+                    </div>
+                </div>
+
+                <!-- Alarm -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="service-card">
+                        <i class="fa-solid fa-bell"></i>
+                        <h4>Alarm Systems</h4>
+                        <p>Instant alerts and alarms to prevent intrusions.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Our Services Section End -->
+
+    <!-- Our Feature Section Start -->
+    <div class="our-feature">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <!-- Our Feature Images Start -->
+                    <div class="our-feature-images">
+                        <!-- Feature Image Start -->
+                        <div class="feature-image">
+                            <figure class="image-anime reveal">
+                                <img src="/frontend/images/feature-image-1.jpg" alt="">
+                            </figure>
+                        </div>
+                        <!-- Feature Image End -->
+
+                        <!-- Company Experience Info Start -->
+                        <div class="company-experience-info">
+                            <!-- Feature Image Start -->
+                            <div class="feature-image">
+                                <figure class="image-anime reveal">
+                                    <img src="/frontend/images/feature-image-2.jpg" alt="">
+                                </figure>
+                            </div>
+                            <!-- Feature Image End -->
+
+                            <!-- Company Experience Box Start -->
+                            <div class="company-experience-box">
+                                <!-- Company Experience Content Start -->
+                                <div class="company-experience-content">
+                                    <h2><span class="counter">25</span>+</h2>
+                                    <p>Years of experience in cyber security</p>
+                                </div>
+                                <!-- Company Experience Content End -->
+
+                                <!-- Company Client Image Start -->
+                                <div class="our-client-images company-client-images">
+                                    <!-- Client Image Start -->
+                                    <div class="client-image">
+                                        <figure class="image-anime">
+                                            <img src="/frontend/images/client-image-1.jpg" alt="">
+                                        </figure>
+                                    </div>
+                                    <!-- Client Image End -->
+
+                                    <!-- Client Image Start -->
+                                    <div class="client-image">
+                                        <figure class="image-anime">
+                                            <img src="/frontend/images/client-image-2.jpg" alt="">
+                                        </figure>
+                                    </div>
+                                    <!-- Client Image End -->
+
+                                    <!-- Client Image Start -->
+                                    <div class="client-image">
+                                        <figure class="image-anime">
+                                            <img src="/frontend/images/client-image-3.jpg" alt="">
+                                        </figure>
+                                    </div>
+                                    <!-- Client Image End -->
+
+                                    <!-- Add More Client Image Start -->
+                                    <div class="client-image client-counter">
+                                        <h3><span class="counter">25</span>k</h3>
+                                    </div>
+                                    <!-- Add More Client Image End -->
+                                </div>
+                                <!-- Company Client Image End -->
+                            </div>
+                            <!-- Company Experience Box End -->
+                        </div>
+                        <!-- Company Experience Info End -->
+                    </div>
+                    <!-- Our Feature Images End -->
+                </div>
+
+                <div class="col-lg-6">
+                    <!-- Our Feature Content Start -->
+                    <div class="our-feature-content">
+                        <!-- Section Title Start -->
+                        <div class="section-title">
+                            <h3 class="wow fadeInUp">Why Choose Your Home Safety</h3>
+                            <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">Reliable Security
+                                Solutions <span>You Can Trust</span></h2>
+                        </div>
+                        <!-- Section Title End -->
+
+                        <!-- Feature List Start -->
+                        <div class="ferature-list">
+                            <!-- Feature List Item Start -->
+                            <div class="ferature-list-item wow fadeInUp" data-wow-delay="0.4s">
+                                <div class="icon-box">
+                                    <img src="/frontend/images/icon-ferature-1.svg" alt="">
+                                </div>
+                                <div class="ferature-list-content">
+                                    <h3>Expert Installation</h3>
+                                    <p>Professional setup for maximum security and performance.</p>
+                                </div>
+                            </div>
+                            <!-- Feature List Item End -->
+
+                            <!-- Feature List Item Start -->
+                            <div class="ferature-list-item wow fadeInUp" data-wow-delay="0.6s">
+                                <div class="icon-box">
+                                    <img src="/frontend/images/icon-ferature-2.svg" alt="">
+                                </div>
+                                <div class="ferature-list-content">
+                                    <h3>Advanced Technology</h3>
+                                    <p>Latest CCTV systems with high-quality video monitoring.</p>
+                                </div>
+                            </div>
+                            <!-- Feature List Item End -->
+
+                            <!-- Feature List Item Start -->
+                            <div class="ferature-list-item wow fadeInUp" data-wow-delay="0.8s">
+                                <div class="icon-box">
+                                    <img src="/frontend/images/icon-ferature-3.svg" alt="">
+                                </div>
+                                <div class="ferature-list-content">
+                                    <h3>Affordable Pricing</h3>
+                                    <p>Cost-effective security solutions for every budget.</p>
+                                </div>
+                            </div>
+                            <!-- Feature List Item End -->
+                        </div>
+                        <!-- Feature List End -->
+                    </div>
+                    <!-- Our Feature Content End -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Our Feature Section End -->
+
+
+    <!-- Our Testimonials Section Start -->
+    <div class="our-testimonials">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <!-- Section Title Start -->
+                    <div class="section-title">
+                        <h3 class="wow fadeInUp">testimonials</h3>
+                        <h2 class="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">Our clients <span>are
+                                saying</span></h2>
+                    </div>
+                    <!-- Section Title End -->
+                </div>
+
+                <div class="col-lg-12">
+                    <!-- Testimonial Box Start -->
+                    <div class="testimonial-box parallaxie">
+                        <!-- Testimonial Video Button Start -->
+                        <div class="testimonial-video-button">
+                            {{-- <a href="https://www.youtube.com/watch?v=Y-x0efG1seA" class="popup-video"
+                                data-cursor-text="Play">
+                                <i class="fa-solid fa-play"></i>
+                            </a> --}}
+                            {{-- <h3>Watch video</h3> --}}
+                        </div>
+                        <!-- Testimonial Video Button End -->
+
+                        <!-- Testimonial Slide Box Start -->
+                        <div class="testimonial-slider-box">
+                            <!-- Testimonial Slide Start -->
+                            <div class="testimonial-slider">
+                                <div class="swiper">
+                                    <div class="swiper-wrapper" data-cursor-text="Drag">
+
+                                        <!-- Testimonial 1 -->
+                                        <div class="swiper-slide">
+                                            <div class="testimonial-item">
+                                                <div class="testimonial-content">
+                                                    <p>"Your Home Security is an excellent website. The CCTV products are
+                                                        reliable and very affordable. Installation was quick and
+                                                        professionally handled. Highly satisfied with the service."</p>
+                                                </div>
+                                                <div class="testimonial-body">
+                                                    <div class="author-image">
+                                                        <figure class="image-anime">
+                                                            <img src="/frontend/images/author-1.jpg" alt="">
+                                                        </figure>
+                                                    </div>
+                                                    <div class="author-content">
+                                                        <h3>Michael Carter</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Testimonial 2 -->
+                                        <div class="swiper-slide">
+                                            <div class="testimonial-item">
+                                                <div class="testimonial-content">
+                                                    <p>"I had a great experience with Your Home Security. Their cameras are
+                                                        high quality and pricing is very reasonable. The support team guided
+                                                        me throughout the installation process."</p>
+                                                </div>
+                                                <div class="testimonial-body">
+                                                    <div class="author-image">
+                                                        <figure class="image-anime">
+                                                            <img src="/frontend/images/author-2.jpg" alt="">
+                                                        </figure>
+                                                    </div>
+                                                    <div class="author-content">
+                                                        <h3>Emma Williams</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Testimonial 3 -->
+                                        <div class="swiper-slide">
+                                            <div class="testimonial-item">
+                                                <div class="testimonial-content">
+                                                    <p>"The CCTV installation service was smooth and efficient. I really
+                                                        liked the product quality and the affordable pricing. Definitely
+                                                        recommended for anyone looking for security solutions."</p>
+                                                </div>
+                                                <div class="testimonial-body">
+                                                    <div class="author-image">
+                                                        <figure class="image-anime">
+                                                            <img src="/frontend/images/author-3.jpg" alt="">
+                                                        </figure>
+                                                    </div>
+                                                    <div class="author-content">
+                                                        <h3>Daniel Schmidt</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Testimonial 4 -->
+                                        <div class="swiper-slide">
+                                            <div class="testimonial-item">
+                                                <div class="testimonial-content">
+                                                    <p>"Very impressed with the service quality. The website is easy to use
+                                                        and the products are trustworthy. Installation team was polite and
+                                                        completed the work perfectly."</p>
+                                                </div>
+                                                <div class="testimonial-body">
+                                                    <div class="author-image">
+                                                        <figure class="image-anime">
+                                                            <img src="/frontend/images/author-4.jpg" alt="">
+                                                        </figure>
+                                                    </div>
+                                                    <div class="author-content">
+                                                        <h3>Sophia Martinez</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Testimonial 5 -->
+                                        <div class="swiper-slide">
+                                            <div class="testimonial-item">
+                                                <div class="testimonial-content">
+                                                    <p>"Your Home Security offers great value for money. The CCTV cameras
+                                                        work perfectly and give me peace of mind. Installation was fast and
+                                                        hassle-free."</p>
+                                                </div>
+                                                <div class="testimonial-body">
+                                                    <div class="author-image">
+                                                        <figure class="image-anime">
+                                                            <img src="/frontend/images/author-5.jpg" alt="">
+                                                        </figure>
+                                                    </div>
+                                                    <div class="author-content">
+                                                        <h3>Lucas Anderson</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="testimonial-btn">
+                                        <div class="testimonial-button-prev"></div>
+                                        <div class="testimonial-button-next"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Testimonial Slide End -->
+
+                            <!-- Testimnoial Contact Info Start -->
+                            <div class="testimonial-contact-info">
+                                <!-- Testimonial Contact Box Start -->
+                                <div class="testimonial-contact-box">
+                                    <div class="icon-box">
+                                        <img src="/frontend/images/icon-phone.svg" alt="">
+                                    </div>
+                                    <div class="testimonial-contact-content">
+                                        <p>If you any questions or need help contact with team. <span><a
+                                                    href="tel:+18664206110">+1 (866) 420-6110</a></span></p>
+                                    </div>
+                                </div>
+                                <!-- Testimonial Contact Box End -->
+
+                                <!-- Testimonial Contact Button Start -->
+                                <div class="testimonial-contact-btn">
+                                    <a href="tel:+18664206110" class="btn-default">contact us</a>
+                                </div>
+                                <!-- Testimonial Contact Button End -->
+                            </div>
+                            <!-- Testimnoial Contact Info End -->
+                        </div>
+                        <!-- Testimonial Slide Box End -->
+                    </div>
+                    <!-- Testimonials Box End -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Our Testimonials Section End -->
+
+
+
+    <!-- CTA Box Section Start -->
+    <div class="cta-box-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- CTA Box Start -->
+                    <div class="cta-box">
+                        <!-- CTA Box Content Start -->
+                        <div class="cta-box-content">
+                            <!-- Section Title Start -->
+                            <div class="section-title dark-section">
+                                <h2 class="wow fadeInUp" data-cursor="-opaque">Ready to Secure Your Home or Business?</h2>
+                                <p>Call now for quick CCTV installation and expert security solutions.</p>
+                            </div>
+                            <!-- Section Title End -->
+
+                            <!-- CTA Contact Info Start -->
+                            <div class="cta-contact-info">
+                                <!-- CTA Contact Item Start -->
+                                <div class="cta-contact-item">
+                                    <div class="icon-box">
+                                        <img src="/frontend/images/icon-phone.svg" alt="">
+                                    </div>
+                                    <div class="cta-contact-content">
+                                        <h3>Get contact now</h3>
+                                        <p><a href="tel:+18664206110">+1 (866) 420-6110</a></p>
+                                    </div>
+                                </div>
+                                <!-- CTA Contact Item End -->
+                            </div>
+                            <!-- CTA Contact Info End -->
+                        </div>
+                        <!-- CTA Box Content End -->
+
+                        <!-- CTA Box Image Start -->
+                        <div class="cta-box-image">
+                            <figure class="image-anime reveal">
+                                <img src="/frontend/images/cta-box-image.jpg" alt="">
+                            </figure>
+                        </div>
+                        <!-- CTA Box Image End -->
+                    </div>
+                    <!-- CTA Box End -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- CTA Box Section End -->
 @endsection

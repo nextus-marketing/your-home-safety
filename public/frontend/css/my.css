@@ -1,142 +1,63 @@
-.bg-color-op-1 .fa-solid {
-    color: #0a2540 !important;
-    /* Navy Blue */
-}
-
-/* Overlay */
-#popup-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    display: none;
-    /* hidden initially */
-    align-items: center;
-    justify-content: center;
-    z-index: 9999;
-}
-
-/* Popup Box */
-.popup-box {
-    background: #fff;
-    border-radius: 20px;
-    padding: 30px 20px;
-    width: 90%;
-    max-width: 420px;
+.topbar-info-text p {
+    color: var(--white-color);
+    opacity: 80%;
+    margin-bottom: 0;
     text-align: center;
-    position: relative;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
-/* Close Button */
-.popup-close {
-    position: absolute;
-    top: 10px;
-    right: 15px;
-    font-size: 22px;
-    cursor: pointer;
-    color: #666;
+.section-title h1 {
+    font-size: 52px;
+    font-weight: 700;
+    color: var(--white-color);
+    margin-bottom: 0;
+    cursor: none;
 }
 
-/* Logo */
-.popup-logo img {
-    max-width: 140px;
+.service-card {
+    background: #fff;
+    padding: 30px 20px;
+    border-radius: 15px;
+    text-align: center;
+    transition: 0.3s ease;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+    height: 100%;
+}
+
+.service-card i {
+    font-size: 40px;
+    color: #4f46e5;
     margin-bottom: 15px;
 }
 
-/* Text */
-.popup-box h2 {
-    font-size: 22px;
-    font-weight: 600;
+.service-card h4 {
+    font-size: 20px;
     margin-bottom: 10px;
+    font-weight: 600;
 }
 
-.popup-box p {
-    font-size: 15px;
+.service-card p {
+    font-size: 14px;
     color: #666;
-    margin-bottom: 20px;
 }
 
-/* Button */
-.popup-btn {
-    display: flex;
-    justify-content: center;
+/* Hover Effect */
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
 }
 
-.call-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    background: #4A7CD2;
+/* Active Card (Highlight like your middle one) */
+.service-card.active {
+    background: linear-gradient(135deg, #4f46e5, #06b6d4);
     color: #fff;
-    padding: 12px 25px;
-    border-radius: 30px;
-    text-decoration: none;
-    font-size: 15px;
-    font-weight: 500;
-    transition: 0.3s;
 }
 
-.call-btn:hover {
-    background: #4A7CD2;
-}
-
-/* Mobile */
-@media (max-width: 480px) {
-    .popup-box {
-        padding: 25px 15px;
-    }
-
-    .popup-box h2 {
-        font-size: 18px;
-    }
-
-    .popup-box p {
-        font-size: 14px;
-    }
-}
-
-.call-float {
-    position: fixed;
-    left: 20px;
-    bottom: 20px;
-    width: 60px;
-    height: 60px;
-    background-color: #4A7CD2;
+.service-card.active i,
+.service-card.active p {
     color: #fff;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 24px;
-    z-index: 9999;
-    text-decoration: none;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    animation: pulse 2s infinite;
 }
 
-/* Hover effect */
-.call-float:hover {
-    transform: scale(1.1);
-}
-
-/* Pulse Animation */
-@keyframes pulse {
-    0% {
-        box-shadow: 0 0 0 0 rgba(74, 124, 210, 0.7);
-    }
-
-    70% {
-        box-shadow: 0 0 0 20px rgba(74, 124, 210, 0);
-    }
-
-    100% {
-        box-shadow: 0 0 0 0 rgba(74, 124, 210, 0);
-    }
-}
-
-section {
-    padding: 60px 0 60px 0;
+.service-why-choose-box,
+.service-entry-feature-box {
+    margin-top: 30px;
 }
