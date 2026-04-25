@@ -132,7 +132,7 @@
                         <ul>
                             <li><a href="/">home</a></li>
                             <li><a href="/#about">about us</a></li>
-                            <li><a href="/#contact">services</a></li>
+                            <li><a href="/#contact">Contact Us</a></li>
                             <li><a href="/privacy-policy">Privacy Policy</a></li>
                             <li><a href="/terms-and-condition">Terms & Conditions</a></li>
                         </ul>
@@ -170,6 +170,196 @@
         <!-- Footer Copyright End -->
     </footer>
     <!-- Main Footer Section End -->
+
+    <!-- Popup Modal -->
+    <div id="securityPopup" class="popup-overlay">
+        <div class="popup-box">
+            <span class="popup-close">&times;</span>
+
+            <div class="popup-content">
+                <img src="/frontend/my-img/logo-2.png" alt="Logo" class="popup-logo">
+
+                <h2>Talk to Security Experts & Protect What Matters Most</h2>
+
+                <div class="header-btn">
+                    <a href="tel:+18664206110" class="btn-default">
+                        <i class="fa fa-phone"></i> Call Now
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        /* Overlay */
+        .popup-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+        }
+
+        /* Popup Box */
+        .popup-box {
+            background: #fff;
+            border-radius: 12px;
+            padding: 30px 25px;
+            width: 90%;
+            max-width: 500px;
+            text-align: center;
+            position: relative;
+            animation: fadeInUp 0.4s ease;
+        }
+
+        /* Close Button */
+        .popup-close {
+            position: absolute;
+            top: 12px;
+            right: 15px;
+            font-size: 22px;
+            cursor: pointer;
+            color: #555;
+        }
+
+        /* Logo */
+        .popup-logo {
+            max-width: 160px;
+            margin-bottom: 15px;
+        }
+
+        /* Text */
+        .popup-content h2 {
+            font-size: 22px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+
+
+        /* Animation */
+        @keyframes fadeInUp {
+            from {
+                transform: translateY(30px);
+                opacity: 0;
+            }
+
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        /* Responsive */
+        @media (max-width: 576px) {
+            .popup-box {
+                padding: 20px 15px;
+            }
+
+            .popup-content h2 {
+                font-size: 18px;
+            }
+
+            .popup-logo {
+                max-width: 130px;
+            }
+        }
+    </style>
+
+    <script>
+        window.addEventListener("load", function() {
+            setTimeout(function() {
+                document.getElementById("securityPopup").style.display = "flex";
+            }, 3000); // 3 seconds
+        });
+
+        // Close popup
+        document.querySelector(".popup-close").addEventListener("click", function() {
+            document.getElementById("securityPopup").style.display = "none";
+        });
+
+        // Close on outside click
+        document.getElementById("securityPopup").addEventListener("click", function(e) {
+            if (e.target === this) {
+                this.style.display = "none";
+            }
+        });
+    </script>
+
+    <a href="tel:+18664206110" class="call-float">
+        <i class="fa-solid fa-phone"></i>
+    </a>
+
+    <style>
+        .call-float {
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(to right, var(--accent-color) 0%, var(--accent-secondary-color) 50%, var(--accent-color) 100%);
+            color: #fff;
+            border-radius: 50%;
+            text-align: center;
+            font-size: 22px;
+            line-height: 60px;
+            z-index: 9999;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            transition: 0.3s;
+        }
+
+        .call-float:hover {
+            background: linear-gradient(to right, var(--accent-color) 0%, var(--accent-secondary-color) 50%, var(--accent-color) 100%);
+            transform: scale(1.1);
+        }
+
+        /* Pulse Animation */
+        .call-float::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            background: linear-gradient(to right, var(--accent-color) 0%, var(--accent-secondary-color) 50%, var(--accent-color) 100%);
+            animation: pulse 1.5s infinite;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+                opacity: 0.7;
+            }
+
+            70% {
+                transform: scale(1.6);
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 0;
+            }
+        }
+
+        /* Mobile Adjust */
+        @media (max-width: 576px) {
+            .call-float {
+                width: 50px;
+                height: 50px;
+                font-size: 18px;
+                line-height: 50px;
+                right: 15px;
+                bottom: 15px;
+            }
+        }
+    </style>
 
     <!-- Jquery Library File -->
     <script src="/frontend/js/jquery-3.7.1.min.js"></script>

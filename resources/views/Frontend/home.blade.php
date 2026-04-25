@@ -36,7 +36,7 @@
     <!-- Hero Section End -->
 
     <!-- About Us Section Start -->
-    <div class="about-us">
+    <div class="about-us" id="about">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
@@ -45,7 +45,7 @@
                         <!-- About Image Box Start -->
                         <div class="about-image-box about-img-1">
                             <figure class="image-anime reveal">
-                                <img src="/frontend/images/about-image-1.jpg" alt="">
+                                <img src="/frontend/my-img/cam-3.avif" alt="">
                             </figure>
                         </div>
                         <!-- About Image Box End -->
@@ -54,24 +54,24 @@
                         <div class="about-image-box">
                             <div class="about-img-2">
                                 <figure class="image-anime reveal">
-                                    <img src="/frontend/images/about-image-2.jpg" alt="">
+                                    <img src="/frontend/my-img/cam-4.jpg" alt="">
                                 </figure>
                             </div>
 
                             <div class="about-img-3">
                                 <figure class="image-anime reveal">
-                                    <img src="/frontend/images/about-image-3.jpg" alt="">
+                                    <img src="/frontend/my-img/cam-5.avif" alt="">
                                 </figure>
                             </div>
                         </div>
                         <!-- About Image Box Start -->
 
                         <!-- Get Free Security Circle Start -->
-                        <div class="get-free-security-circle">
+                        {{-- <div class="get-free-security-circle">
                             <a href="#0">
                                 <img src="/frontend/images/get-free-security-circle.svg" alt="">
                             </a>
-                        </div>
+                        </div> --}}
                         <!-- Get Free Security Circle End -->
                     </div>
                     <!-- About Us Image End -->
@@ -202,7 +202,7 @@
                         <!-- Feature Image Start -->
                         <div class="feature-image">
                             <figure class="image-anime reveal">
-                                <img src="/frontend/images/feature-image-1.jpg" alt="">
+                                <img src="/frontend/my-img/cam-1.jpg" alt="">
                             </figure>
                         </div>
                         <!-- Feature Image End -->
@@ -221,8 +221,8 @@
                             <div class="company-experience-box">
                                 <!-- Company Experience Content Start -->
                                 <div class="company-experience-content">
-                                    <h2><span class="counter">25</span>+</h2>
-                                    <p>Years of experience in cyber security</p>
+                                    <h2><span class="counter">15</span>+</h2>
+                                    <p>Years of experience in Home security</p>
                                 </div>
                                 <!-- Company Experience Content End -->
 
@@ -508,7 +508,7 @@
 
 
     <!-- CTA Box Section Start -->
-    <div class="cta-box-section">
+    <div class="cta-box-section" id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -544,7 +544,7 @@
                         <!-- CTA Box Image Start -->
                         <div class="cta-box-image">
                             <figure class="image-anime reveal">
-                                <img src="/frontend/images/cta-box-image.jpg" alt="">
+                                <img src="/frontend/my-img/3.jpg" alt="">
                             </figure>
                         </div>
                         <!-- CTA Box Image End -->
