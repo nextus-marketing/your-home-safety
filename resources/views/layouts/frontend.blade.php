@@ -5,43 +5,43 @@
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <meta name="description"
         content="Get reliable CCTV installation and home security solutions. Protect your home, office, and business with advanced surveillance systems. Call now for fast setup and expert service.">
 
-    <!-- Page Title -->
     <title>@yield('title')</title>
-    <!-- Favicon Icon -->
-    <link rel="shortcut icon" type="image/x-icon" href="/frontend/images/favicon.png">
-    <!-- Google Fonts Css-->
-    <link rel="preconnect" href="https://fonts.googleapis.com/">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('frontend/images/favicon.png') }}">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&amp;display=swap"
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap"
         rel="stylesheet">
-    <!-- Bootstrap Css -->
-    <link href="/frontend/css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <!-- SlickNav Css -->
-    <link href="/frontend/css/slicknav.min.css" rel="stylesheet">
-    <!-- Swiper Css -->
-    <link rel="stylesheet" href="/frontend/css/swiper-bundle.min.css">
-    <!-- Font Awesome Icon Css-->
-    <link href="/frontend/css/all.min.css" rel="stylesheet" media="screen">
-    <!-- Animated Css -->
-    <link href="/frontend/css/animate.css" rel="stylesheet">
-    <!-- Magnific Popup Core Css File -->
-    <link rel="stylesheet" href="/frontend/css/magnific-popup.css">
-    <!-- Mouse Cursor Css File -->
-    <link rel="stylesheet" href="/frontend/css/mousecursor.css">
-    <!-- Main Custom Css -->
-    <link href="/frontend/css/custom.css" rel="stylesheet" media="screen">
 
-    <link rel="stylesheet" href="/frontend/css/my.css">
+    <!-- Bootstrap (Make sure it's Bootstrap 5) -->
+    <link href="{{ asset('frontend/css/bootstrap.min.css') }}" rel="stylesheet">
 
+    <!-- Plugins CSS -->
+    <link href="{{ asset('frontend/css/slicknav.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('frontend/css/swiper-bundle.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('frontend/css/animate.css') }}" rel="stylesheet">
+    <link href="{{ asset('frontend/css/magnific-popup.css') }}" rel="stylesheet">
+
+    <!-- Font Awesome (ONLY ONE - FIXED) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
+    <!-- Custom CSS -->
+    <link href="{{ asset('frontend/css/custom.css') }}" rel="stylesheet">
+    <link href="{{ asset('frontend/css/my.css') }}" rel="stylesheet">
+
+    <!-- SEO -->
     <link rel="canonical" href="{{ url()->current() }}">
-    <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large" />
+    <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large">
+
 </head>
 
 <body>
