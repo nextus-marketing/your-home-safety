@@ -13,7 +13,7 @@
     <title>@yield('title')</title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('frontend/images/favicon.png') }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('/frontend/images/favicon.png') }}">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,20 +23,20 @@
         rel="stylesheet">
 
     <!-- Bootstrap (Make sure it's Bootstrap 5) -->
-    <link href="{{ asset('frontend/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('/frontend/css/bootstrap.min.css') }}" rel="stylesheet">
 
     <!-- Plugins CSS -->
-    <link href="{{ asset('frontend/css/slicknav.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('frontend/css/swiper-bundle.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('frontend/css/animate.css') }}" rel="stylesheet">
-    <link href="{{ asset('frontend/css/magnific-popup.css') }}" rel="stylesheet">
+    <link href="{{ asset('/frontend/css/slicknav.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('/frontend/css/swiper-bundle.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('/frontend/css/animate.css') }}" rel="stylesheet">
+    <link href="{{ asset('/frontend/css/magnific-popup.css') }}" rel="stylesheet">
 
     <!-- Font Awesome (ONLY ONE - FIXED) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
     <!-- Custom CSS -->
-    <link href="{{ asset('frontend/css/custom.css') }}" rel="stylesheet">
-    <link href="{{ asset('frontend/css/my.css') }}" rel="stylesheet">
+    <link href="{{ asset('/frontend/css/custom.css') }}" rel="stylesheet">
+    <link href="{{ asset('/frontend/css/my.css') }}" rel="stylesheet">
 
     <!-- SEO -->
     <link rel="canonical" href="{{ url()->current() }}">
