@@ -41,6 +41,8 @@
     <link rel="canonical" href="{{ url()->current() }}">
     <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 </head>
 
 <style>
@@ -427,7 +429,7 @@
     </script>
 
     <a href="tel:+18664206110" class="call-float">
-        <i class="fa-solid fa-phone"></i>
+        <i class="fa fa-phone"></i>
     </a>
 
 
