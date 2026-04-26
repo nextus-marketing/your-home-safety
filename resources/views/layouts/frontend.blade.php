@@ -43,6 +43,221 @@
 
 </head>
 
+<style>
+    .topbar-info-text p {
+        color: var(--white-color);
+        opacity: 80%;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .section-title h1 {
+        font-size: 60px;
+        font-weight: 700;
+        color: var(--white-color);
+        margin-bottom: 0;
+        cursor: none;
+    }
+
+    .service-card {
+        background: #fff;
+        padding: 30px 20px;
+        border-radius: 15px;
+        text-align: center;
+        transition: 0.3s ease;
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+        height: 100%;
+    }
+
+    .service-card i {
+        font-size: 40px;
+        color: #4f46e5;
+        margin-bottom: 15px;
+    }
+
+    .service-card h4 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        font-weight: 600;
+    }
+
+    .service-card p {
+        font-size: 14px;
+        color: #666;
+    }
+
+    /* Hover Effect */
+    .service-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Active Card (Highlight like your middle one) */
+    .service-card.active {
+        background: linear-gradient(135deg, #4f46e5, #06b6d4);
+        color: #fff;
+    }
+
+    .service-card.active i,
+    .service-card.active p {
+        color: #fff;
+    }
+
+    .service-why-choose-box,
+    .service-entry-feature-box {
+        margin-top: 30px;
+    }
+
+    .navbar {
+        padding: 10px 0;
+        align-items: center;
+    }
+
+    /* Overlay */
+    .popup-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        display: none;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+    }
+
+    /* Popup Box */
+    .popup-box {
+        background: #fff;
+        border-radius: 12px;
+        padding: 30px 25px;
+        width: 90%;
+        max-width: 500px;
+        text-align: center;
+        position: relative;
+        animation: fadeInUp 0.4s ease;
+    }
+
+    /* Close Button */
+    .popup-close {
+        position: absolute;
+        top: 12px;
+        right: 15px;
+        font-size: 22px;
+        cursor: pointer;
+        color: #555;
+    }
+
+    /* Logo */
+    .popup-logo {
+        max-width: 160px;
+        margin-bottom: 15px;
+    }
+
+    /* Text */
+    .popup-content h2 {
+        font-size: 22px;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+
+
+    /* Animation */
+    @keyframes fadeInUp {
+        from {
+            transform: translateY(30px);
+            opacity: 0;
+        }
+
+        to {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+    /* Responsive */
+    @media (max-width: 576px) {
+        .popup-box {
+            padding: 20px 15px;
+        }
+
+        .popup-content h2 {
+            font-size: 18px;
+        }
+
+        .popup-logo {
+            max-width: 130px;
+        }
+    }
+
+
+    .call-float {
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+        width: 60px;
+        height: 60px;
+        background: linear-gradient(to right, var(--accent-color) 0%, var(--accent-secondary-color) 50%, var(--accent-color) 100%);
+        color: #fff;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 22px;
+        line-height: 60px;
+        z-index: 9999;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        transition: 0.3s;
+    }
+
+    .call-float:hover {
+        background: linear-gradient(to right, var(--accent-color) 0%, var(--accent-secondary-color) 50%, var(--accent-color) 100%);
+        transform: scale(1.1);
+    }
+
+    /* Pulse Animation */
+    .call-float::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background: linear-gradient(to right, var(--accent-color) 0%, var(--accent-secondary-color) 50%, var(--accent-color) 100%);
+        animation: pulse 1.5s infinite;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+
+    @keyframes pulse {
+        0% {
+            transform: scale(1);
+            opacity: 0.7;
+        }
+
+        70% {
+            transform: scale(1.6);
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
+
+    /* Mobile Adjust */
+    @media (max-width: 576px) {
+        .call-float {
+            width: 50px;
+            height: 50px;
+            font-size: 18px;
+            line-height: 50px;
+            right: 15px;
+            bottom: 15px;
+        }
+    }
+</style>
+
 <body>
 
     <!-- Preloader Start -->
