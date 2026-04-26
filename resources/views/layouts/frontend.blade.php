@@ -48,6 +48,27 @@
     <i class="fa fa-phone"></i>
 </a> --}}
 <style>
+    /* Large Mobile */
+    @media (max-width: 767px) {
+        .section-title h1 {
+            font-size: 32px !important;
+        }
+    }
+
+    /* Small Mobile */
+    @media (max-width: 576px) {
+        .section-title h1 {
+            font-size: 26px !important;
+        }
+    }
+
+    /* Extra Small Devices */
+    @media (max-width: 400px) {
+        .section-title h1 {
+            font-size: 22px !important;
+        }
+    }
+
     .topbar-info-text p {
         color: var(--white-color);
         opacity: 80%;
@@ -260,6 +281,17 @@
             bottom: 15px;
         }
     }
+
+    .topbar {
+        background: linear-gradient(90.15deg, var(--accent-color) 1.15%, var(--accent-secondary-color) 98.84%) !important;
+        padding: 5px 0 !important;
+    }
+
+    @media (max-width: 767px) {
+        .topbar {
+            padding: 0 !important;
+        }
+    }
 </style>
 
 <body>
@@ -399,11 +431,10 @@
 
                 <h2>Talk to Security Experts & Protect What Matters Most</h2>
 
-                <div class="header-btn">
-                    <a href="tel:+18664206110" class="btn-default">
-                        <i class="fa fa-phone"></i> Call Now
-                    </a>
-                </div>
+                <a class="btn-default wow fadeInUp" data-wow-delay="0.75s" href="tel:+18664206110"
+                    contenteditable="false"
+                    style="visibility: visible; animation-delay: 0.75s; animation-name: fadeInUp; cursor: pointer;">+1
+                    (866) 420-6110</a>
             </div>
         </div>
     </div>
